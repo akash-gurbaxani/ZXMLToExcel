@@ -172,6 +172,7 @@ public class ReadXmlFile {
 				workbook.write(out);
 
 				out.close();
+				workbook.close();
 
 				count++;
 				System.out.println("Written Excel File");
